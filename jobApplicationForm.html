@@ -258,25 +258,30 @@
 			<fieldset>
 				<legend>Please answer these question</legend>
 				<div class="field">
+					<label>Are you a US citizen or permanent residence?</label> 
+					<input type="radio" name="residence" value="yes">Yes
+					<input type="radio" name="residence" value="no">No
+				</div>
+				<div class="field">
 					<label>What is your ethic?</label> 
-					<input type="radio" value="Caucasion">Caucasion
-					<input type="radio" value="African-American">African American
-					<input type="radio" value="Latino">Latino
-					<input type="radio" value="Asian">Asian
+					<input type="radio" name="ethic" value="Caucasion">Caucasion
+					<input type="radio" name="ethic" value="African-American">African American
+					<input type="radio" name="ethic" value="Latino">Latino
+					<input type="radio" name="ethic" value="Asian">Asian
 				</div>
 				<div class="field">
 					<label>What is your age range?</label> 
-					<input type="radio" value="18-25">18-25
-					<input type="radio" value="26-30">26-30
-					<input type="radio" value="31-35">31-35
-					<input type="radio" value="36-40">36-40
-					<input type="radio" value="41-50">41-50
-					<input type="radio" value="51-60">51-60
+					<input type="radio" name="age" value="18-25">18-25
+					<input type="radio" name="age" value="26-30">26-30
+					<input type="radio" name="age" value="31-35">31-35
+					<input type="radio" name="age" value="36-40">36-40
+					<input type="radio" name="age" value="41-50">41-50
+					<input type="radio" name="age" value="51-60">51-60
 				</div>
 				<div class="field">
-					<label>Did you commit a crime ?</label> 
-					<input type="radio" value="yes">Yes
-					<input type="radio" value="no">No
+					<label>Have you ever commit a crime ?</label> 
+					<input type="radio" name="crime" value="yes">Yes
+					<input type="radio" name="crime" value="no">No
 				</div>
 				
 			</fieldset>
@@ -294,7 +299,7 @@
 			</fieldset>
 		
 			<input type="submit" value="Submit form">
-			<input type="submit" value="Cancel form">
+			<input type="submit" value="Clear form">
 			<input type="submit" value="Main menu">
 		
 		</form>
